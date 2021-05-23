@@ -1,0 +1,21 @@
+@mixin flex($align, $justify) {
+  align-items: $align;
+  display: flex;
+  justify-content: $justify;
+}
+@mixin flexAlign($align) {
+  display: flex;
+  align-items: $align;
+}
+@mixin flexJustify($justify) {
+  display: flex;
+  justify-content: $justify;
+}
+
+@mixin text($color, $family, $size, $weight) {
+  color: $color;
+  font-family: $family;
+  font-size: $size;
+  font-weight: $weight;
+}
+// @include text(#fff, $montserrat, 75px, bold);
